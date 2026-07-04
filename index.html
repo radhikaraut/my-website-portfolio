@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Radhika Raut | Banking &amp; FinTech Expert</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;family=Geist:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-primary-fixed": "#001c3a",
+                      "primary-fixed": "#d4e3ff",
+                      "surface-tint": "#476083",
+                      "tertiary": "#040607",
+                      "inverse-surface": "#313030",
+                      "inverse-primary": "#afc8f0",
+                      "on-primary-container": "#6f88ad",
+                      "surface-bright": "#fcf9f8",
+                      "error": "#ba1a1a",
+                      "on-primary-fixed-variant": "#2f486a",
+                      "on-background": "#1c1b1b",
+                      "on-error-container": "#93000a",
+                      "on-tertiary-fixed": "#191c1e",
+                      "on-secondary-fixed-variant": "#6e3900",
+                      "on-secondary-fixed": "#2f1500",
+                      "on-primary": "#ffffff",
+                      "on-tertiary-container": "#848789",
+                      "surface-container-high": "#eae7e7",
+                      "outline-variant": "#c4c6cf",
+                      "on-surface-variant": "#43474e",
+                      "on-surface": "#1c1b1b",
+                      "primary": "#000613",
+                      "surface-container": "#f0eded",
+                      "secondary-fixed": "#ffdcc3",
+                      "secondary-container": "#fd8b00",
+                      "primary-fixed-dim": "#afc8f0",
+                      "surface-container-lowest": "#ffffff",
+                      "surface": "#fcf9f8",
+                      "secondary-fixed-dim": "#ffb77d",
+                      "tertiary-fixed": "#e0e3e5",
+                      "surface-dim": "#dcd9d9",
+                      "tertiary-container": "#1c1f21",
+                      "on-secondary-container": "#603100",
+                      "background": "#fcf9f8",
+                      "surface-container-highest": "#e5e2e1",
+                      "inverse-on-surface": "#f3f0ef",
+                      "outline": "#74777f",
+                      "surface-container-low": "#f6f3f2",
+                      "on-tertiary-fixed-variant": "#444749",
+                      "surface-variant": "#e5e2e1",
+                      "on-error": "#ffffff",
+                      "tertiary-fixed-dim": "#c4c7c9",
+                      "secondary": "#904d00",
+                      "on-tertiary": "#ffffff",
+                      "on-secondary": "#ffffff",
+                      "primary-container": "#001f3f",
+                      "error-container": "#ffdad6"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "base": "8px",
+                      "container-max-width": "1200px",
+                      "grid-gutter": "24px",
+                      "section-gap-desktop": "120px",
+                      "section-gap-mobile": "64px"
+              },
+              "fontFamily": {
+                      "body-md": ["Inter"],
+                      "label-caps": ["Geist"],
+                      "headline-md": ["Geist"],
+                      "headline-sm": ["Geist"],
+                      "display-lg": ["Geist"],
+                      "display-lg-mobile": ["Geist"],
+                      "body-lg": ["Inter"]
+              },
+              "fontSize": {
+                      "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                      "label-caps": ["12px", {"lineHeight": "1.2", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                      "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                      "headline-sm": ["24px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                      "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "display-lg-mobile": ["36px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "body-lg": ["18px", {"lineHeight": "1.7", "fontWeight": "400"}]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .nav-active {
+            color: #fd8b00;
+            border-bottom: 2px solid #fd8b00;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- Top Navigation -->
+<header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md shadow-sm">
+<nav class="flex justify-between items-center h-20 px-grid-gutter max-w-container-max-width mx-auto">
+<a class="font-headline-sm text-headline-sm font-bold text-primary" href="#">RADHIKA RAUT</a>
+<div class="hidden md:flex items-center gap-10">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary transition-colors" href="#about">About</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary transition-colors" href="#skills">Skills</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary transition-colors" href="#projects">Projects</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary transition-colors" href="#contact">Contact</a>
+<a class="px-6 py-2 bg-primary text-on-primary font-label-caps text-label-caps rounded-lg hover:bg-on-primary-fixed-variant transition-all" href="#">Download CV</a>
+</div>
+<button class="md:hidden text-primary" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</nav>
+<!-- Mobile Menu -->
+<div class="hidden md:hidden bg-surface-container border-t border-outline-variant p-6 flex flex-col gap-4" id="mobile-menu">
+<a class="font-label-caps text-label-caps" href="#about">About</a>
+<a class="font-label-caps text-label-caps" href="#skills">Skills</a>
+<a class="font-label-caps text-label-caps" href="#projects">Projects</a>
+<a class="font-label-caps text-label-caps" href="#contact">Contact</a>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="min-h-screen flex flex-col items-center justify-center text-center px-grid-gutter bg-surface relative overflow-hidden">
+<!-- Background Decoration -->
+<div class="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none">
+<div class="absolute top-1/4 left-1/4 w-96 h-96 bg-secondary-container rounded-full blur-[120px]"></div>
+<div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary-container rounded-full blur-[120px]"></div>
+</div>
+<div class="z-10 max-w-4xl">
+<span class="font-label-caps text-label-caps text-secondary-container tracking-[0.2em] mb-6 block">TECHNO FUNCTIONAL BANKING &amp; FINTECH EXPERT</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-6">Radhika Raut</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10">
+                    Building enterprise-wide solutions for customer facing applications with 28+ years of institutional expertise.
+                </p>
+<div class="flex flex-col md:flex-row gap-4 justify-center">
+<a class="px-10 py-4 bg-secondary-container text-on-secondary-container font-label-caps text-label-caps rounded-full shadow-lg hover:bg-secondary transition-all hover:scale-105" href="#projects">View My Work</a>
+<a class="px-10 py-4 border border-outline text-primary font-label-caps text-label-caps rounded-full hover:bg-surface-container transition-all" href="#contact">Get In Touch</a>
+</div>
+</div>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+<span class="material-symbols-outlined text-primary">expand_more</span>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop px-grid-gutter max-w-container-max-width mx-auto" id="about">
+<div class="flex flex-col md:flex-row gap-16 items-center">
+<div class="w-full md:w-1/3 flex justify-center">
+<div class="relative group">
+<div class="absolute -inset-2 bg-gradient-to-tr from-secondary-container to-primary rounded-full blur opacity-20 group-hover:opacity-40 transition-opacity"></div>
+<img class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover relative ring-4 ring-white shadow-xl" data-alt="A professional studio portrait of a sophisticated female executive in her 50s, Radhika Raut, representing a high-level banking professional. She has a confident and approachable expression, with soft professional lighting accentuating her features. The setting is a minimalist, modern office background with soft bokeh, using a refined color palette of deep navy and warm white. 4k resolution, editorial style photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9-POyDu3dO5HSr4yTMCMC7iHvOyoVKqX4mmA6sg_GkreXE7J2MLWnIKL5mgsjGlPiINmuRZ9puCq4n33grGi1owSKLDdMRruApBW2aCEOkyFH4jkl6wYRsGStilI1sWmurA_t688w8xOzj6A7KvdFSBc7lMXKnBsM0Ij3FWRiKVUSJTDO0P1t63wrYB3sFdWTofx7W2NYZZGB8I8DPNhLfIR1GYpx4EWKGJifbBz3X_jK7Vp33QCs-5u2uxe5jQsH_lemnXHWXLKc"/>
+</div>
+</div>
+<div class="w-full md:w-2/3">
+<h2 class="font-headline-md text-headline-md text-primary mb-8 relative inline-block">
+                        About Me
+                        <span class="absolute bottom-0 left-0 w-12 h-1 bg-secondary-container"></span>
+</h2>
+<div class="space-y-6">
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                            I am a Techno-Functional veteran in the Banking Industry for 28+ years. My channel expertise spans NetBanking for Retail as well as Corporate sectors. I've played a pivotal role in building insulation layers for channels during critical migrations of legacy Core Banking Applications.
+                        </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                            For the past three years, I have solutioned and been actively involved in the revamping of Retail NetBanking for HDFC Bank. Recently, I've built a custom GPT model for POC purposes and am confident about scaling it to include overall NetBanking channel features.
+                        </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed italic border-l-4 border-secondary-container pl-6 bg-surface-container-low py-4">
+                            Currently, I am pursuing advanced AI Skills including Prompt Engineering and Agentic AI. I am looking for a niche area to apply these newly acquired skills and shape future-ready AI organizations.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Skills Section -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop bg-surface-container-lowest" id="skills">
+<div class="px-grid-gutter max-w-container-max-width mx-auto">
+<div class="text-center mb-16">
+<h2 class="font-headline-md text-headline-md text-primary mb-4">Core Competencies</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">A strategic blend of legacy banking architecture and cutting-edge artificial intelligence.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Skill Card 1: AI -->
+<div class="glass-card p-8 rounded-xl hover:shadow-lg transition-all border-l-4 border-secondary-container">
+<span class="material-symbols-outlined text-secondary-container text-4xl mb-4">psychology</span>
+<h3 class="font-headline-sm text-headline-sm mb-4">Advanced AI</h3>
+<ul class="space-y-3">
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span> Python (Agentic Systems)</li>
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span> Prompt Engineering</li>
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span> Agentic AI &amp; RAG Systems</li>
+</ul>
+</div>
+<!-- Skill Card 2: Development -->
+<div class="glass-card p-8 rounded-xl hover:shadow-lg transition-all border-l-4 border-primary">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">code</span>
+<h3 class="font-headline-sm text-headline-sm mb-4">Development</h3>
+<ul class="space-y-3">
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span> Java &amp; RESTful APIs</li>
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span> XSLT / CSS / HTML</li>
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span> SQL &amp; JDBC</li>
+</ul>
+</div>
+<!-- Skill Card 3: Enterprise Architecture -->
+<div class="glass-card p-8 rounded-xl hover:shadow-lg transition-all border-l-4 border-primary-container">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-4">hub</span>
+<h3 class="font-headline-sm text-headline-sm mb-4">Infrastructure</h3>
+<ul class="space-y-3">
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span> WebSphere / EJB / WebLogic</li>
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span> Middleware Architecture</li>
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span> Insulation Layers</li>
+</ul>
+</div>
+<!-- Skill Card 4: Strategy -->
+<div class="glass-card p-8 rounded-xl hover:shadow-lg transition-all border-l-4 border-outline">
+<span class="material-symbols-outlined text-outline text-4xl mb-4">architecture</span>
+<h3 class="font-headline-sm text-headline-sm mb-4">Methodology</h3>
+<ul class="space-y-3">
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-outline"></span> Agile Methodology</li>
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-outline"></span> Functional Testing (UAT)</li>
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-outline"></span> SDLC Management</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Projects Section -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop px-grid-gutter" id="projects">
+<div class="max-w-container-max-width mx-auto">
+<div class="flex justify-between items-end mb-16">
+<div>
+<h2 class="font-headline-md text-headline-md text-primary">Strategic Projects</h2>
+<p class="text-on-surface-variant mt-2">Delivering large-scale banking transformation for global institutions.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Project 1 -->
+<div class="group relative bg-white rounded-2xl overflow-hidden border border-outline-variant shadow-sm hover:shadow-2xl transition-all duration-500">
+<div class="h-64 relative overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A clean, minimalist UI/UX design showcase of a modern retail banking mobile app and dashboard. The interface is sleek, using a professional navy and white color palette with orange action buttons. High-end financial technology aesthetic with subtle charts and clean typography. Bright, professional daylight studio setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCt9CjghsL6Q8OK9z3Z5Mw4edvBLhMprPZuItDa00QoS6Aj-YQ1oTqScSdvL0KYgx0lkvdjxz-K_Sy0_Y7-2NxCZZyjayYaQxbrgnHuD8cljVjGNEQrXI9Le3D6ID24TjERD-QNaLGJ9tmnQferD1PyLwlB_s-QWkCw3fWYoE1CgryRyNe9s9W_JyEnFtee0xOOqGm8nLB0TEXc-PsQz1WV0_IljVq327RMgB_-ZSB8oyckqSFiOWbf9JhPQccnim8BY16gc7LMdIEv"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/40 transition-colors"></div>
+</div>
+<div class="p-8">
+<span class="font-label-caps text-label-caps text-secondary-container mb-2 block">RETAIL NETBANKING</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-4">HDFC Bank &amp; Yes Bank</h3>
+<p class="text-on-surface-variant mb-6">Full-scale revamp of retail modules including Accounts, Deposits, and Money Transfers. Implemented complex validations and seamless user journeys.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-surface-container text-xs font-medium rounded">Java</span>
+<span class="px-3 py-1 bg-surface-container text-xs font-medium rounded">XSLT</span>
+<span class="px-3 py-1 bg-surface-container text-xs font-medium rounded">RESTful APIs</span>
+<span class="px-3 py-1 bg-surface-container text-xs font-medium rounded">Oracle DB</span>
+</div>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="group relative bg-white rounded-2xl overflow-hidden border border-outline-variant shadow-sm hover:shadow-2xl transition-all duration-500">
+<div class="h-64 relative overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Sophisticated data visualization and corporate banking management interface. Dark professional navy theme with glowing orange highlights on growth metrics. The scene depicts complex financial structures represented through clean, geometric data blocks. Minimalist, premium aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMLort90wakeLGeThgKsNrXmRbvxh3Z79ZB98QK0HEJQfihz2UC_wnSLhUPnWwrUfpKDj-6h24SGQqO463jGrYYMVbfwOqvpp3rv45CzymOd9yC3xYCRnzXhgrSqE8VM6a9GZxPTIXAqLYpypncyUIFM_niJQge5MFp8WiODAZRKy1RXnDHprWMSRO9Uv5i0ayGRvjo7PfDbVvQdX1I7wXHhTpOQlnxK-A-Ni4x958RYxA3EbxW7MdDZsG2aopHpCIA731rMYC6MuW"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/40 transition-colors"></div>
+</div>
+<div class="p-8">
+<span class="font-label-caps text-label-caps text-secondary-container mb-2 block">CORPORATE NETBANKING</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-4">HDFC Bank - Corporate</h3>
+<p class="text-on-surface-variant mb-6">Execution of complex corporate transfer modules requiring high security and multi-tier authentication protocols.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-surface-container text-xs font-medium rounded">Middleware</span>
+<span class="px-3 py-1 bg-surface-container text-xs font-medium rounded">JDBC</span>
+<span class="px-3 py-1 bg-surface-container text-xs font-medium rounded">Security Layers</span>
+</div>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="group relative bg-white rounded-2xl overflow-hidden border border-outline-variant shadow-sm hover:shadow-2xl transition-all duration-500">
+<div class="h-64 relative overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A cinematic, wide-angle shot of a global banking network center with glowing light trails connecting different parts of a world map. The lighting is low-key with vibrant primary navy and orange accents. Sophisticated architectural space with glass and steel elements. Minimalist and high-tech." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPhH-FhbUmvG05lI8mEU3owxNKGQqmaFCjYM0akHM0qU-NlM3k_YbfAg8p54gKQiDGTmEeNKow-2Go7VgUgiDC3O6-VVbkj3kplXDYWErdUNdJHb_is_oNBmJDkBYglvf80G4CLI3NdbVOOX2cJ44GQ-huWIZYbVQ23D4_GqBGjMcLwoC8gZeIh-P4ugBNde1wmzbqCkQ0uuwi_eG6rQChijjmQ1dExoGmsEWoTP4_PCxM40taNjFMB-ZX0TQcNkBAcTzTY8dE581G"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/40 transition-colors"></div>
+</div>
+<div class="p-8">
+<span class="font-label-caps text-label-caps text-secondary-container mb-2 block">INTERNATIONAL BANKING</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-4">First Caribbean International</h3>
+<p class="text-on-surface-variant mb-6">End-to-end implementation of both Retail and Corporate NetBanking modules for Caribbean markets.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-surface-container text-xs font-medium rounded">XSLT</span>
+<span class="px-3 py-1 bg-surface-container text-xs font-medium rounded">Multi-region</span>
+<span class="px-3 py-1 bg-surface-container text-xs font-medium rounded">EJB</span>
+</div>
+</div>
+</div>
+<!-- Project 4 -->
+<div class="group relative bg-white rounded-2xl overflow-hidden border border-outline-variant shadow-sm hover:shadow-2xl transition-all duration-500">
+<div class="h-64 relative overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Abstract representation of technology layers and middleware architecture. Translucent glowing glass panels stacked neatly, representing data orchestration and insulation. Deep navy background with soft orange light leaking through the gaps. High-end technical illustration style, clean and professional." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqd6nFzLjJ9YCcc8CRsVYaNy-exL_dViqzzGjsDL60fLMjOHYGLFWQqN_BkGDs2wYWS2Hu07YBSiiDGJglL5ZaqmKxCNd2aCuMRXeT_4qs1cClSCMcgFLRBJ4LbnRqq0_KY4jzBOO8BTt3hb7r6cxwfRaJ6oW7DKmb5l33vEeNjPkRC4JP98tiztmVI06dW12wTVLK3SC4jWdQD47Yiv53H0o_Eherez2ybCnOdXEYlAIizgNR96MRxj1PsMSk7R6gUZL-Fr1N8g8Z"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/40 transition-colors"></div>
+</div>
+<div class="p-8">
+<span class="font-label-caps text-label-caps text-secondary-container mb-2 block">CORE SYSTEM MIGRATION</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-4">Insulation Layer Architecture</h3>
+<p class="text-on-surface-variant mb-6">Orchestration of data during major legacy Core Banking migrations to ensure zero downtime for channels.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-surface-container text-xs font-medium rounded">Stored Procedures</span>
+<span class="px-3 py-1 bg-surface-container text-xs font-medium rounded">Oracle DB</span>
+<span class="px-3 py-1 bg-surface-container text-xs font-medium rounded">Orchestration</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop bg-primary text-on-primary" id="contact">
+<div class="px-grid-gutter max-w-container-max-width mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+<div>
+<h2 class="font-headline-md text-headline-md mb-6">Let's Connect</h2>
+<p class="text-on-primary/70 font-body-lg text-body-lg mb-10 max-w-md">
+                            I’m open to freelance projects, organizational strategy consulting, and collaborations. The fastest way to reach me is via email.
+                        </p>
+<div class="space-y-6">
+<a class="flex items-center gap-4 group" href="mailto:Radhika.k.raut@gmail.com">
+<div class="w-12 h-12 rounded-full bg-on-primary/10 flex items-center justify-center group-hover:bg-secondary-container transition-colors">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<p class="text-xs font-label-caps text-on-primary/50">EMAIL</p>
+<p class="text-lg">Radhika.k.raut@gmail.com</p>
+</div>
+</a>
+<a class="flex items-center gap-4 group" href="https://linkedin.com/in/radhika-raut-a772122b7" target="_blank">
+<div class="w-12 h-12 rounded-full bg-on-primary/10 flex items-center justify-center group-hover:bg-secondary-container transition-colors">
+<span class="material-symbols-outlined">link</span>
+</div>
+<div>
+<p class="text-xs font-label-caps text-on-primary/50">LINKEDIN</p>
+<p class="text-lg">linkedin.com/in/radhika-raut</p>
+</div>
+</a>
+</div>
+</div>
+<div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-white/10">
+<form class="space-y-6" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="font-label-caps text-label-caps text-on-primary/70">Full Name</label>
+<input class="w-full bg-white/10 border-none border-b border-white/20 focus:ring-0 focus:border-secondary-container text-on-primary rounded-lg p-3" placeholder="John Doe" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-label-caps text-on-primary/70">Email Address</label>
+<input class="w-full bg-white/10 border-none border-b border-white/20 focus:ring-0 focus:border-secondary-container text-on-primary rounded-lg p-3" placeholder="john@example.com" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-label-caps text-on-primary/70">Message</label>
+<textarea class="w-full bg-white/10 border-none border-b border-white/20 focus:ring-0 focus:border-secondary-container text-on-primary rounded-lg p-3" placeholder="How can I help you?" rows="4"></textarea>
+</div>
+<button class="w-full py-4 bg-secondary-container text-on-secondary-container font-label-caps text-label-caps rounded-lg hover:bg-secondary transition-all shadow-xl font-bold" type="submit">Send Message</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-primary dark:bg-primary-container py-12 border-t border-white/5">
+<div class="flex flex-col md:flex-row justify-between items-center px-grid-gutter max-w-container-max-width mx-auto gap-base">
+<span class="font-headline-sm text-headline-sm text-on-primary">RADHIKA RAUT</span>
+<p class="font-body-md text-body-md text-on-primary/70">© 2024 Radhika Raut. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="text-on-primary/70 hover:text-secondary-fixed transition-colors" href="#">LinkedIn</a>
+<a class="text-on-primary/70 hover:text-secondary-fixed transition-colors" href="#">Twitter</a>
+<a class="text-on-primary/70 hover:text-secondary-fixed transition-colors" href="#">Email</a>
+</div>
+</div>
+</footer>
+<script>
+        // Simple scroll spy for navigation highlight
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const scrollPos = window.scrollY + 100;
+            const navLinks = document.querySelectorAll('nav a[href^="#"]');
+
+            sections.forEach(section => {
+                if (scrollPos >= section.offsetTop && scrollPos < section.offsetTop + section.offsetHeight) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('text-secondary', 'border-b-2', 'border-secondary');
+                        if (link.getAttribute('href') === `#${section.id}`) {
+                            link.classList.add('text-secondary', 'border-b-2', 'border-secondary');
+                        }
+                    });
+                }
+            });
+        });
+
+        // Sticky Navbar background shift
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('shadow-md');
+            } else {
+                header.classList.remove('shadow-md');
+            }
+        });
+    </script>
+</body></html>
